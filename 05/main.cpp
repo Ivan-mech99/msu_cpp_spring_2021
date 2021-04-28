@@ -35,6 +35,5 @@ int main() {
   Default_test();
   Only_bool_test();
   cout << "Success!" << endl;
-  getchar();
   return 0;
 }
