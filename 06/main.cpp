@@ -34,6 +34,5 @@ int main() {
   Empty_braces_test();
   Incorrect_index_test();
   std::cout << "Success" << endl;
-  getchar();
 }
 
