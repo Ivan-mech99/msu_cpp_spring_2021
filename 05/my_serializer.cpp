@@ -26,6 +26,7 @@ bool check(string num) {
   }
  return true;
 }
+
 void Serializer::inner_save(bool &value) {
   string ans1 = "true ";
   string ans2 = "false ";
@@ -76,6 +77,7 @@ Error Deserializer::check_extra_fields() {
     return Error::NoError;
   }
 }
+
 Error Deserializer::inner_load(bool &value) {
   string text;
   in_ >> text;
