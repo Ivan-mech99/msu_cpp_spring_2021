@@ -153,7 +153,6 @@ struct bool3 {
   bool a;
   bool b;
   bool c;
-
   template <class Serializer>
   Error serialize(Serializer &serializer) {
     return serializer(a, b, c);
